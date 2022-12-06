@@ -102,7 +102,7 @@ const Footer = () => {
       </StyledSocial>
       <StyledMetadata tabindex="-1">
         <StyledGitHubLink
-          href="https://github.com/bchiang7/v4"
+          href="https://github.com/khan-rehan/my_portfolio"
           target="_blank"
           rel="nofollow noopener noreferrer">
           <div>
@@ -111,7 +111,7 @@ const Footer = () => {
 
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
-              <span></span>
+              {/* <span></span> */}
               {/* <span>
                 <FormattedIcon name="Star" />
                 <span>{githubInfo.stars.toLocaleString()}</span>
