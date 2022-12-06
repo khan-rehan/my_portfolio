@@ -111,7 +111,7 @@ const Footer = () => {
 
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
-              {/* <span></span> */}
+              <span>Design Inspired by Brittany Chang</span>
               {/* <span>
                 <FormattedIcon name="Star" />
                 <span>{githubInfo.stars.toLocaleString()}</span>
