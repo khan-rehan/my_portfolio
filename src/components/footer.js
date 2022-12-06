@@ -111,6 +111,7 @@ const Footer = () => {
 
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
+              <span></span>
               {/* <span>
                 <FormattedIcon name="Star" />
                 <span>{githubInfo.stars.toLocaleString()}</span>
