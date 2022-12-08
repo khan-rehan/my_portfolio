@@ -4,7 +4,7 @@ module.exports = {
     'Khan Rehan is a Software Developer at Ingram Micro, who loves learning new things and helping tech beginners.',
   siteKeywords:
     'Khan Rehan, rehan2599, software developer, software engineer, web developer, iOS developer, mumbai, ingram',
-  siteUrl: 'https://rehankhan.tech/archive',
+  siteUrl: 'https://rehankhan.tech',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
