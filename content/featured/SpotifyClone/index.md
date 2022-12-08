@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'Spotify Clone'
+title: 'Musify'
 cover: 'spotifyClone.png'
 github: 'https://github.com/khan-rehan/Spotify_clone'
 external: 'http://spotifyrah.epizy.com/'
