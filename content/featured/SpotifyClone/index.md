@@ -3,7 +3,7 @@ date: '2'
 title: 'Musify'
 cover: 'spotifyClone.png'
 github: 'https://github.com/khan-rehan/Spotify_clone'
-external: 'http://spotifyrah.epizy.com/'
+external: ''
 tech:
   - PHP
   - MYSQL
