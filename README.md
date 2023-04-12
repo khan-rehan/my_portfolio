@@ -1,7 +1,7 @@
 
  # Portfolio Version 2
 
-**Wanna take look at my Portfolio??** 👉🏻👉🏻[ Visit Webiste](http://covid-19rk.epizy.com/)
+**Wanna take look at my Portfolio??** 👉🏻👉🏻[ Visit Webiste](https://rehankhan.tech/)
 
 
 Previous iterations: [Version 1](https://rehankhan.netlify.app/)
