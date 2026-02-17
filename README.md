@@ -1,13 +1,61 @@
+# My Portfolio v2
 
- # Portfolio Version 2
+A personal developer portfolio website built with Gatsby and React, featuring a blog (Pensieve), project showcase, work experience timeline, and a modern dark-themed design.
 
-**Wanna take look at my Portfolio??** 👉🏻👉🏻[ Visit Webiste](https://rehankhan.tech/)
+**Live Site:** [rehankhan.tech](https://rehankhan.tech/)
+**Previous Version:** [v1](https://rehankhan.netlify.app/)
 
+## Features
 
-Previous iterations: [Version 1](https://rehankhan.netlify.app/)
+- Single-page portfolio with smooth scrolling navigation
+- Hero, About, Work Experience, Featured Projects, Projects, and Contact sections
+- Blog section (Pensieve) with Markdown-based posts, tagging, and syntax highlighting
+- Responsive design for mobile and desktop
+- Scroll-triggered animations using ScrollReveal and Anime.js
+- SEO optimized with sitemap, robots.txt, and Open Graph meta tags
+- PWA support with offline capability
+- Google Analytics integration
+- Markdown-driven content — all projects, jobs, and posts are stored as `.md` files
 
+## Tech Stack
 
-## 🛠 Installation & Set Up
+- **Framework:** Gatsby v4, React v17
+- **Styling:** Styled Components
+- **Content:** Markdown + GraphQL
+- **Animations:** Anime.js, ScrollReveal, React Transition Group
+- **Code Highlighting:** Prism.js
+- **SEO:** React Helmet, gatsby-plugin-sitemap, gatsby-plugin-robots-txt
+- **Deployment:** Netlify / GitHub Pages
+
+## Project Structure
+
+```
+my_portfolio/
+├── content/               # Markdown content
+│   ├── about/             # About section
+│   ├── contact/           # Contact section
+│   ├── featured/          # Featured project entries
+│   ├── hero/              # Hero section
+│   ├── jobs/              # Work experience entries
+│   ├── posts/             # Blog posts
+│   └── projects/          # Project portfolio entries
+├── src/
+│   ├── components/        # React components
+│   │   ├── sections/      # Page section components
+│   │   └── icons/         # SVG icon components
+│   ├── pages/             # Gatsby pages
+│   ├── templates/         # Post and tag templates
+│   ├── styles/            # Global styles, theme, mixins
+│   ├── fonts/             # Custom fonts (Calibre, SFMono)
+│   └── config.js          # Site configuration
+├── gatsby-config.js       # Gatsby plugins and metadata
+├── gatsby-node.js         # Dynamic page generation
+└── package.json
+```
+
+## Installation & Setup
+
+**Prerequisites:** Node.js v16 (see `.nvmrc`), npm or Yarn
 
 1. Install the Gatsby CLI
 
@@ -33,7 +81,9 @@ Previous iterations: [Version 1](https://rehankhan.netlify.app/)
    npm start
    ```
 
-## 🚀 Building and Running for Production
+   The site runs at `http://localhost:8000` with a GraphQL playground at `http://localhost:8000/___graphql`.
+
+## Building for Production
 
 1. Generate a full static production build
 
@@ -41,21 +91,36 @@ Previous iterations: [Version 1](https://rehankhan.netlify.app/)
    npm run build
    ```
 
-1. Preview the site as it will appear once deployed
+2. Preview the production build locally
 
    ```sh
    npm run serve
    ```
 
-## 🎨 Color Reference
+## Customization
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#172a45](https://via.placeholder.com/10/0a192f?text=+) `#172a45` |
-| Lightest Navy  | ![#303C55](https://via.placeholder.com/10/303C55?text=+) `#303C55` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+All content is managed through Markdown files in the `content/` directory:
+
+- **Add a project:** Create a new `.md` file in `content/projects/` or `content/featured/`
+- **Add a blog post:** Create a new folder in `content/posts/` with an `index.md`
+- **Update work experience:** Edit or add entries in `content/jobs/`
+- **Update about/hero/contact:** Edit the corresponding Markdown files
+
+Site metadata and plugin configs are in `gatsby-config.js`. Theme colors and fonts are defined in `src/styles/`.
+
+## Color Reference
+
+| Color          | Hex       |
+| -------------- | --------- |
+| Navy           | `#0a192f` |
+| Light Navy     | `#172a45` |
+| Lightest Navy  | `#303C55` |
+| Slate          | `#8892b0` |
+| Light Slate    | `#a8b2d1` |
+| Lightest Slate | `#ccd6f6` |
+| White          | `#e6f1ff` |
+| Green          | `#64ffda` |
+
+## License
+
+MIT
